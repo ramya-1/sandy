@@ -116,8 +116,11 @@
 				<artifactId>tomcat7-maven-plugin</artifactId>
 				<version>2.2</version>
 				<configuration>
-					<port>8082</port>
-					<path>/CounterWebApp</path>
+					<url>http://localhost:8090/manager/text</url>
+<server>TomcatServer</server>
+<username>admin</username>
+<password>admin</password>
+<path>/CounterWebApp</path>
 				</configuration>
 			</plugin>
 		</plugins>
